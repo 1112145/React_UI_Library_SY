@@ -1,4 +1,4 @@
-# SmartFun React UI Library
+# React UI Library by San Yang
 This is an internal project to build UI Webs/Apps.
 
 Note: Please include bootraps css in your *index.html* 
