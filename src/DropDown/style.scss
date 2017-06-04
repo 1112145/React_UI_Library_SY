@@ -1,0 +1,29 @@
+.btn-dropdown{
+    background-color: white;
+    width: 24px;
+    height: 24px;
+}
+
+.dropdown {
+    background-color: white;
+    display: inline-block;
+    padding: 2px;
+    min-width: 250px;
+    input {
+        min-width: 220px;
+        font-size: 20px;
+    }
+}
+
+.dropdown-menu-list {
+   overflow: scroll;
+   max-height: 150px;
+   box-shadow: 5px 5px 2.5px #888888;
+   border-radius: 0.2em;
+}
+
+.dropdown-item {
+    margin: 5px;
+    text-align: left;
+    font-size: 20px;
+}

@@ -1,0 +1,29 @@
+
+
+.tab-control {
+    display: flex;
+}
+
+.currentTab {
+    flex: 1;
+    min-height: 80px;
+    background-color: #F3817A;
+    border: 1px solid #FFFFFF;
+    color: white; 
+}
+
+.tab-button {
+    flex: 1;
+    min-height: 80px;
+    background-color: #545F66;
+    border: 1px solid #FFFFFF;
+    color: white; 
+}
+
+.tab-view {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+}
+

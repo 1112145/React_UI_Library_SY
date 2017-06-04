@@ -1,0 +1,46 @@
+{
+  "name": "sf_ui_components",
+  "version": "0.0.3-1.15",
+  "description": "Basic UI component ",
+  "main": "build/bundle.js",
+  "scripts": {
+    "clean": "rm -rf build && mkdir build",
+    "build": "npm run clean && webpack",
+    "build-test": "webpack --config webpack.config.dev.js --watch",
+    "server-test": "nodemon ./test/server_test.js --watch",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "UI",
+    "SmartFun",
+    "Components"
+  ],
+  "author": "Nguyen Dang Khoa (dangkhoaicao@gmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "stage-2",
+      "react"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.26.1",
+    "express": "^4.15.3",
+    "node-sass": "^4.5.0",
+    "nodemon": "^1.11.0",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.6.0"
+  }
+}
