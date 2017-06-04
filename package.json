@@ -1,5 +1,5 @@
 {
-  "name": "sf_ui_components",
+  "name": "sy_react_ui",
   "version": "0.0.3-1.15",
   "description": "Basic UI component ",
   "main": "build/bundle.js",

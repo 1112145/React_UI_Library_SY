@@ -35,7 +35,7 @@ Note: Please include bootraps css in your *index.html*
 
 3. Usage
 
-         import { Overlay } from 'sf_ui_components';
+         import { Overlay } from 'sy_react_ui';
          import React from 'react';
 
          class ExampleOverlay extends React.Components {
@@ -80,7 +80,7 @@ Note: Please include bootraps css in your *index.html*
 
 3. Usage
 
-         import { SearchBox } from 'sf_ui_components';
+         import { SearchBox } from 'sy_react_ui';
          import React from 'react';
 
          class ExampleSearchBox extends React.Components {
@@ -130,7 +130,7 @@ Note: Please include bootraps css in your *index.html*
 
 3. Usage
 
-         import { Text } from 'sf_ui_components';
+         import { Text } from 'sy_react_ui';
          import React from 'react';
 
          class ExampleText extends React.Components {
